@@ -1,0 +1,48 @@
+.p p {
+    text-align: justify;
+    margin:  20%;
+}
+
+.neat-word {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    text-transform: uppercase;
+}
+
+#subheader {
+    text-align: right;
+    color: black;
+}
+
+h1 {
+    color: white;
+    background: black;
+    text-align: right;
+
+    text-transform: uppercase;
+    font-family:monospace;
+    padding-right: 120px;
+
+}
+
+#nav{
+    background: gray;
+
+}
+
+#nav li {
+    display: inline;
+    margin-right: 15px;
+
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+#nav:hover li a{
+    text-decoration: underline;
+    color: red;
+}
+

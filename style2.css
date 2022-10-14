@@ -1,0 +1,29 @@
+
+
+body > p {
+    color: green;
+}
+
+* {
+    color: green;
+}
+
+html * {
+    background: white;
+}
+
+html * * {
+    background: grey;
+}
+
+html * * * {
+    background: black;
+}
+
+p :first-child {
+    background: green;
+}
+
+p :last-child {
+    background: violet;
+}

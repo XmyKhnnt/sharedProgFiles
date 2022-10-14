@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Coding IM 1 - Exercise 3File</title>
+    <style>
+
+        .inst em{
+            color: green;
+
+        }
+
+        .inst span{
+            font-family: monospace;
+        }
+
+        .p1 p{
+            text-indent: 20px;
+            border: solid 1px black;
+            padding: 30px;
+            color: blue;
+            background-color: yellow;
+        }
+        .freePlay p{
+            letter-spacing: 4px;
+            text-decoration: wavy;
+            text-transform: capitalize;
+            text-align: justify;
+            text-indent: 10px;
+            
+            border: 1px solid black;
+        }
+        
+        .div2 .blue {
+            color: blue;
+        }
+
+        .div3 .tuxedo {
+            color: white;
+            background-color: black;
+        }
+
+        .div3 .pineapple {
+            color: yellow;
+            background-color: green;
+        }
+
+        .div3 .myClass {
+            line-height: 50px;
+            text-decoration: overline;
+            font-weight: bolder;
+        }
+
+        /*Hey CSS! Your mother was a hamster*/
+        .div4 p{
+            margin: 15px 0px;
+            padding-left: 10%;
+            padding-right: 10%;
+            text-align: justify;
+
+            border: dashed 1px orange;
+
+        }
+        .div4 .highlight{
+            background-color: yellow;
+            padding: 0;
+            margin: 0 10%;
+            display: inline;
+        }
+
+        
+
+    </style>
+
+
+</head>
+<body style="background:teal;">
+    <!-- Instrcution 1-->
+    <p style="color:green;"> 
+        Here is a boring black and white paragraph. Ho hum.
+    </p>
+    <!-- Instrcution 2-->
+    <p style="color:orange">
+        Here is a second paragraph. the one above lies, it's not boring anymore.
+    </p>
+
+    <p style="color:blue;">
+        I thought U was going to be blue paragraph! Why isn't this working? :(
+    </p>
+    
+    <!-- Instrcution 3-->
+    
+        A lot of <span style="font-family:monospace">span</span> tags are <em style="color: red;">useful</em>
+        but the <span style="font-family:monospace">span</span> tag is <em style="color: red;">worthless</em>
+        on its own unless you use <span style="font-family:monospace">CSS</span> to spice
+        it up 
+   
+    <!-- Instrcution 4-->
+    
+        <h1>All about Sean</h1>
+        I like a lot of thing, like butterflies, deer eyelashes, and especially
+        <div style="color:white;">DINOSAURS</div>
+        and other things that have <span style="text-decoration: underline;">scale</span>, like fish and snakes.
+
+        <span style="font-style: italic;">I</span> am
+        <span style="font-style: italic;">in</span> High
+        <span style="font-style: italic;">School</span>!
+    
+    <!-- Instrcution 4-->
+
+    <p style="color:red;">
+        This text is red. But it would be really nice if it could also
+        have a teal background, don't you think?
+    </p>
+    <!-- Instrcution 5-->
+
+    <p>
+        Let's put all our eggs in one
+        <span style="color: blue; 
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 25px;
+        font-style: italic;
+        letter-spacing: 10px;
+        ">fabulous</span>
+        basket
+    </p>
+    <!-- Instrcution 5-->
+
+    <span style="color:red; 
+    font-weight: bold;"> word</span>
+    <!-- Instrcution 6-->
+
+    
+        I'm <em>excited</em> about <span>CSS</span>. I 
+        <em>love</em> <span>CSS</span>. I can't 
+        <em>wait</em> to learn more about <span>CSS</span>
+        and start using <span>CSS</span> <em>All over the place</em>! 
+        But do I want to <em>keep retyping the same declaration over and over?</em>
+
+        Yuor answer: <div>
+            Definitely not. We can make use of classes 
+            and ID's and external or embeded CSS to about 
+            redunduncy in CSS </div>
+    
+    
+    <div class="inst">
+        I'm <em>excited</em> about <span>span</span>. I <em>love</em> <span>CSS</span>
+        I can't <em>wait</em> to learn more about <span>CSS</span> ans start using <span>CSS</span>
+        <em>over the place</em>
+
+    </div>
+
+    <div class="p1">
+        <p>
+            This paragraphs should be indented 20 pixels, it should be blue with a yellow background,
+            it should have black border and it should have 30 pixels of padding.
+        </p>
+    </div>
+
+    <div class="freePlay">
+        <p>
+            Here is a long paragraph for you to play with. Go ahead and mess
+        with it. All of the properties shown here are text properties. As
+        a bonus, you can try using different units for the properties that
+        take numerical values. There is already the demo of pixels and
+        percent. Try "em", a relative unit (1em = the current font size). You can also try
+        negative values (e.g. -10px). Some properties take negative values,
+        and some do not.
+        </p>
+    </div>
+
+
+    <div>
+        We call the thing that targets which HTML element we want to style a selector.
+    </div>
+
+    <div class="div2">
+
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p class="blue">This is a paragraph that should be blue</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+
+        <p>
+            This is a paragraph that contains an <em class="blue">emphasized</em> word, a regular
+            word that we happen to want to be <span class="blue">blue</span> and a word that is
+            <strong >very</strong> important.
+            This sentence has <strong>important</strong> and <em>emphasized</em>
+            words as well, but we don't want <span>any</span> of them to be
+            <span>blue</span>!
+
+        </p>
+    </div>
+
+
+    <div class="div3">
+
+        <p class="tuxedo">This is a paragraph in black and while</p>
+        <p>This is a paragraph that's just normal</p>
+        <p class="blue">This is a paragraph that should be blue</p>
+        <p class="pineapple">This is a paragraph that is fun and tropical!</p>
+        <p class="myClass">This is a paragraph that reflects you!</p>
+
+
+        <p>
+        This is a paragraph that contains an <em>emphasized</em> word, a regular
+        word that we happen to want to be <span>blue</span> and a word that is
+        <strong>very</strong> important.
+        This sentence has <strong>important</strong> and <em>emphasized</em>
+        words as well, but we don't want <span>any</span> of them to be
+        <span>blue</span>!
+        </p>
+    </div>
+
+    <div class="div4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et vehicula urna. Pellentesque
+            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+            <p>Curabitur ligula magna, scelerisque sed cursus ac, consequat non quam. Etiam ipsum ligula, semper
+            scelerisque fringilla nec, elementum eu dui. Aenean nec nunc nisi. </p>
+            <p class="highlight">
+             <span> Highlight me! I'm an English paragraph! </span>
+            </p>
+            <p>Curabitur in purus at odio viverra bibendum id eu urna. Curabitur aliquet, odio a mattis semper,
+            justo risus volutpat nunc, non ornare velit augue tincidunt quam.</p>
+            <p>Morbi commodo nisl mauris, convallis venenatis urna. Donec consequat tincidunt commodo. </p>
+            <p>Etiam luctus, risus non dignissim gravida, nibh enim tristique turpis, vel viverra mauris dui sit amet
+            sem. Morbi dignissim dictum tortor, vel ullamcorper sem consequat et. </p>
+            <p class="highlight">
+                <span> Highlight me! I am also in English!</span>
+            </p>
+            <p>Ut turpis ante, pharetra vitae euismod ac, euismod at enim. Proin porttitor venenatis diam,
+            consectetur placerat urna mattis vulputate. Vestibulum tristique scelerisque rhoncus. </p>
+            <p>Donec ac lectus tortor, sit amet gravida enim. </p>
+    </div>
+
+
+
+</body>
+</html>
